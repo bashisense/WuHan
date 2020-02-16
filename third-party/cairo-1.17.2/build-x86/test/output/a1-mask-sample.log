@@ -1,0 +1,54 @@
+Testing a1-mask-sample with ps2 target (dev offset 0 scale: 1)
+Error: Skipping for vector target ps2
+TEST: a1-mask-sample TARGET: ps2 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: UNTESTED
+Testing a1-mask-sample with ps2 target (dev offset 0 scale: 1)
+Error: Skipping for vector target ps2
+TEST: a1-mask-sample TARGET: ps2 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: UNTESTED
+Testing a1-mask-sample with ps3 target (dev offset 0 scale: 1)
+Error: Skipping for vector target ps3
+TEST: a1-mask-sample TARGET: ps3 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: UNTESTED
+Testing a1-mask-sample with ps3 target (dev offset 0 scale: 1)
+Error: Skipping for vector target ps3
+TEST: a1-mask-sample TARGET: ps3 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: UNTESTED
+Testing a1-mask-sample with script target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.script.argb32.out.png
+TEST: a1-mask-sample TARGET: script FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with xcb target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.xcb.argb32.out.png
+TEST: a1-mask-sample TARGET: xcb FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with xcb target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.xcb.rgb24.out.png
+TEST: a1-mask-sample TARGET: xcb FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with xcb-window target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.xcb-window.rgb24.out.png
+TEST: a1-mask-sample TARGET: xcb-window FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with xcb-window& target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.xcb-window&.rgb24.out.png
+TEST: a1-mask-sample TARGET: xcb-window& FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with xcb-render-0_0 target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.xcb-render-0_0.argb32.out.png
+TEST: a1-mask-sample TARGET: xcb-render-0_0 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with xcb-render-0_0 target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.xcb-render-0_0.rgb24.out.png
+TEST: a1-mask-sample TARGET: xcb-render-0_0 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with xcb-fallback target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.xcb-fallback.rgb24.out.png
+TEST: a1-mask-sample TARGET: xcb-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with xlib-fallback target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.xlib-fallback.rgb24.out.png
+TEST: a1-mask-sample TARGET: xlib-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with image target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.image.argb32.out.png
+TEST: a1-mask-sample TARGET: image FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with image target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.image.rgb24.out.png
+TEST: a1-mask-sample TARGET: image FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with image16 target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.image16.rgb24.out.png
+TEST: a1-mask-sample TARGET: image16 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with recording target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.recording.argb32.out.png
+TEST: a1-mask-sample TARGET: recording FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-mask-sample with recording target (dev offset 0 scale: 1)
+OUTPUT: output/a1-mask-sample.recording.rgb24.out.png
+TEST: a1-mask-sample TARGET: recording FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS

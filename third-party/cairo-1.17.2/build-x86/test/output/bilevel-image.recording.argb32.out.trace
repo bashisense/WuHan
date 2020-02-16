@@ -1,0 +1,15 @@
+%!CairoScript
+<< /content //COLOR_ALPHA /width 12 /height 4 >> surface context
+//COLOR_ALPHA [0 0 12 4] record
+dup /s8 exch def dup context
+1 g set-source
+paint
+<< /width 12 /height 4 /format //ARGB32 /source <|!!!#7Gb"[2T7Prc(kN<\(h.jm^3rM^~> >> image pattern
+  //FILTER_NEAREST set-filter
+  set-source
+paint
+pop pattern
+  set-source
+paint
+pop
+/s8 undef

@@ -1,0 +1,23 @@
+%!CairoScript
+<< /content //COLOR /width 100 /height 100 >> surface context
+//COLOR [0 0 100 100] record
+dup /s5 exch def dup context
+1 g set-source
+paint
+n 50 50 m 50050 50050 l
+1 1 0 rgb set-source
+stroke+
+n 50 50 m -49950 50050 l
+1 0 0 rgb set-source
+stroke+
+n 50 50 m 50050 -49950 l
+0 1 0 rgb set-source
+stroke+
+n 50 50 m -49950 -49950 l
+0 0 1 rgb set-source
+stroke+
+pop pattern
+  set-source
+paint
+pop
+/s5 undef

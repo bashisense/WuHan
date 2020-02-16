@@ -1,0 +1,109 @@
+Testing bug-spline with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: bug-spline TARGET: ps2 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-spline with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: bug-spline TARGET: ps2 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-spline with ps3 target (dev offset 0 scale: 1)
+1488 pixels differ (with maximum difference of 255) from reference image
+1203 pixels differ (with maximum difference of 255) from reference image
+OUTPUT: output/bug-spline.ps3.argb32.out.png
+REFERENCE: ../../test/reference/bug-spline.ps.ref.png
+DIFFERENCE: output/bug-spline.ps3.argb32.diff.png
+TEST: bug-spline TARGET: ps3 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-spline with ps3 target (dev offset 0 scale: 1)
+1488 pixels differ (with maximum difference of 255) from reference image
+1203 pixels differ (with maximum difference of 255) from reference image
+OUTPUT: output/bug-spline.ps3.rgb24.out.png
+REFERENCE: ../../test/reference/bug-spline.ps.ref.png
+DIFFERENCE: output/bug-spline.ps3.rgb24.diff.png
+TEST: bug-spline TARGET: ps3 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-spline with script target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-spline.script.argb32.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.script.argb32.diff.png
+TEST: bug-spline TARGET: script FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-spline with xcb target (dev offset 0 scale: 1)
+666 pixels differ (with maximum difference of 15) from reference image
+666 pixels differ (with maximum difference of 15) from reference image
+OUTPUT: output/bug-spline.xcb.argb32.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.xcb.argb32.diff.png
+TEST: bug-spline TARGET: xcb FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-spline with xcb target (dev offset 0 scale: 1)
+666 pixels differ (with maximum difference of 15) from reference image
+666 pixels differ (with maximum difference of 15) from reference image
+OUTPUT: output/bug-spline.xcb.rgb24.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.xcb.rgb24.diff.png
+TEST: bug-spline TARGET: xcb FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-spline with xcb-window target (dev offset 0 scale: 1)
+666 pixels differ (with maximum difference of 15) from reference image
+666 pixels differ (with maximum difference of 15) from reference image
+OUTPUT: output/bug-spline.xcb-window.rgb24.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.xcb-window.rgb24.diff.png
+TEST: bug-spline TARGET: xcb-window FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-spline with xcb-window& target (dev offset 0 scale: 1)
+666 pixels differ (with maximum difference of 15) from reference image
+666 pixels differ (with maximum difference of 15) from reference image
+OUTPUT: output/bug-spline.xcb-window&.rgb24.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.xcb-window&.rgb24.diff.png
+TEST: bug-spline TARGET: xcb-window& FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-spline with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-spline.xcb-render-0_0.argb32.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.xcb-render-0_0.argb32.diff.png
+TEST: bug-spline TARGET: xcb-render-0_0 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-spline with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-spline.xcb-render-0_0.rgb24.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.xcb-render-0_0.rgb24.diff.png
+TEST: bug-spline TARGET: xcb-render-0_0 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-spline with xcb-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-spline.xcb-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.xcb-fallback.rgb24.diff.png
+TEST: bug-spline TARGET: xcb-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-spline with xlib-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-spline.xlib-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.xlib-fallback.rgb24.diff.png
+TEST: bug-spline TARGET: xlib-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-spline with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-spline.image.argb32.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.image.argb32.diff.png
+TEST: bug-spline TARGET: image FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-spline with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-spline.image.rgb24.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.image.rgb24.diff.png
+TEST: bug-spline TARGET: image FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-spline with image16 target (dev offset 0 scale: 1)
+1142 pixels differ (with maximum difference of 8) from reference image
+1142 pixels differ (with maximum difference of 8) from reference image
+OUTPUT: output/bug-spline.image16.rgb24.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.image16.rgb24.diff.png
+TEST: bug-spline TARGET: image16 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-spline with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-spline.recording.argb32.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.recording.argb32.diff.png
+TEST: bug-spline TARGET: recording FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-spline with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-spline.recording.rgb24.out.png
+REFERENCE: ../../test/reference/bug-spline.ref.png
+DIFFERENCE: output/bug-spline.recording.rgb24.diff.png
+TEST: bug-spline TARGET: recording FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS

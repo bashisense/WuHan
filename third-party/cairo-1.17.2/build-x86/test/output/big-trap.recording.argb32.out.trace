@@ -1,0 +1,14 @@
+%!CairoScript
+<< /content //COLOR_ALPHA /width 100 /height 100 >> surface context
+//COLOR_ALPHA [0 0 100 100] record
+dup /s5 exch def dup context
+1 g set-source
+paint
+0 g set-source
+n 8 8 m 312 8 l 310 -2175675.734375 l 10 -2175675.734375 l 8 8 l
+fill+
+pop pattern
+  set-source
+paint
+pop
+/s5 undef

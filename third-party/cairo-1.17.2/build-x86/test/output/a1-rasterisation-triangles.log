@@ -1,0 +1,96 @@
+Testing a1-rasterisation-triangles with ps2 target (dev offset 0 scale: 1)
+Error: Skipping for vector target ps2
+TEST: a1-rasterisation-triangles TARGET: ps2 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: UNTESTED
+Testing a1-rasterisation-triangles with ps2 target (dev offset 0 scale: 1)
+Error: Skipping for vector target ps2
+TEST: a1-rasterisation-triangles TARGET: ps2 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: UNTESTED
+Testing a1-rasterisation-triangles with ps3 target (dev offset 0 scale: 1)
+Error: Skipping for vector target ps3
+TEST: a1-rasterisation-triangles TARGET: ps3 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: UNTESTED
+Testing a1-rasterisation-triangles with ps3 target (dev offset 0 scale: 1)
+Error: Skipping for vector target ps3
+TEST: a1-rasterisation-triangles TARGET: ps3 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: UNTESTED
+Testing a1-rasterisation-triangles with script target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.script.argb32.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.script.argb32.diff.png
+TEST: a1-rasterisation-triangles TARGET: script FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with xcb target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.xcb.argb32.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.xcb.argb32.diff.png
+TEST: a1-rasterisation-triangles TARGET: xcb FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with xcb target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.xcb.rgb24.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.xcb.rgb24.diff.png
+TEST: a1-rasterisation-triangles TARGET: xcb FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with xcb-window target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.xcb-window.rgb24.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.xcb-window.rgb24.diff.png
+TEST: a1-rasterisation-triangles TARGET: xcb-window FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with xcb-window& target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.xcb-window&.rgb24.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.xcb-window&.rgb24.diff.png
+TEST: a1-rasterisation-triangles TARGET: xcb-window& FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.xcb-render-0_0.argb32.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.xcb-render-0_0.argb32.diff.png
+TEST: a1-rasterisation-triangles TARGET: xcb-render-0_0 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.xcb-render-0_0.rgb24.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.xcb-render-0_0.rgb24.diff.png
+TEST: a1-rasterisation-triangles TARGET: xcb-render-0_0 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with xcb-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.xcb-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.xcb-fallback.rgb24.diff.png
+TEST: a1-rasterisation-triangles TARGET: xcb-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with xlib-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.xlib-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.xlib-fallback.rgb24.diff.png
+TEST: a1-rasterisation-triangles TARGET: xlib-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.image.argb32.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.image.argb32.diff.png
+TEST: a1-rasterisation-triangles TARGET: image FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.image.rgb24.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.image.rgb24.diff.png
+TEST: a1-rasterisation-triangles TARGET: image FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with image16 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.image16.rgb24.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.image16.rgb24.diff.png
+TEST: a1-rasterisation-triangles TARGET: image16 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.recording.argb32.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.recording.argb32.diff.png
+TEST: a1-rasterisation-triangles TARGET: recording FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a1-rasterisation-triangles with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a1-rasterisation-triangles.recording.rgb24.out.png
+REFERENCE: ../../test/reference/a1-rasterisation-triangles.ref.png
+DIFFERENCE: output/a1-rasterisation-triangles.recording.rgb24.diff.png
+TEST: a1-rasterisation-triangles TARGET: recording FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS

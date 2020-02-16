@@ -1,0 +1,102 @@
+Testing bug-bo-collins with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: bug-bo-collins TARGET: ps2 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-bo-collins with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: bug-bo-collins TARGET: ps2 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-bo-collins with ps3 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.ps3.argb32.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.ps3.argb32.diff.png
+TEST: bug-bo-collins TARGET: ps3 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with ps3 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.ps3.rgb24.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.ps3.rgb24.diff.png
+TEST: bug-bo-collins TARGET: ps3 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with script target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.script.argb32.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.script.argb32.diff.png
+TEST: bug-bo-collins TARGET: script FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with xcb target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.xcb.argb32.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.xcb.argb32.diff.png
+TEST: bug-bo-collins TARGET: xcb FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with xcb target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.xcb.rgb24.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.xcb.rgb24.diff.png
+TEST: bug-bo-collins TARGET: xcb FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with xcb-window target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.xcb-window.rgb24.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.xcb-window.rgb24.diff.png
+TEST: bug-bo-collins TARGET: xcb-window FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with xcb-window& target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.xcb-window&.rgb24.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.xcb-window&.rgb24.diff.png
+TEST: bug-bo-collins TARGET: xcb-window& FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.xcb-render-0_0.argb32.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.xcb-render-0_0.argb32.diff.png
+TEST: bug-bo-collins TARGET: xcb-render-0_0 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.xcb-render-0_0.rgb24.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.xcb-render-0_0.rgb24.diff.png
+TEST: bug-bo-collins TARGET: xcb-render-0_0 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with xcb-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.xcb-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.xcb-fallback.rgb24.diff.png
+TEST: bug-bo-collins TARGET: xcb-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with xlib-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.xlib-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.xlib-fallback.rgb24.diff.png
+TEST: bug-bo-collins TARGET: xlib-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.image.argb32.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.image.argb32.diff.png
+TEST: bug-bo-collins TARGET: image FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.image.rgb24.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.image.rgb24.diff.png
+TEST: bug-bo-collins TARGET: image FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with image16 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.image16.rgb24.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.image16.rgb24.diff.png
+TEST: bug-bo-collins TARGET: image16 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.recording.argb32.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.recording.argb32.diff.png
+TEST: bug-bo-collins TARGET: recording FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-bo-collins with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-bo-collins.recording.rgb24.out.png
+REFERENCE: ../../test/reference/bug-bo-collins.ref.png
+DIFFERENCE: output/bug-bo-collins.recording.rgb24.diff.png
+TEST: bug-bo-collins TARGET: recording FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS

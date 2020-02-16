@@ -1,0 +1,102 @@
+Testing arc-infinite-loop with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: arc-infinite-loop TARGET: ps2 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-infinite-loop with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: arc-infinite-loop TARGET: ps2 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-infinite-loop with ps3 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.ps3.argb32.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.ps3.argb32.diff.png
+TEST: arc-infinite-loop TARGET: ps3 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with ps3 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.ps3.rgb24.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.ps3.rgb24.diff.png
+TEST: arc-infinite-loop TARGET: ps3 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with script target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.script.argb32.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.script.argb32.diff.png
+TEST: arc-infinite-loop TARGET: script FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with xcb target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.xcb.argb32.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.xcb.argb32.diff.png
+TEST: arc-infinite-loop TARGET: xcb FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with xcb target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.xcb.rgb24.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.xcb.rgb24.diff.png
+TEST: arc-infinite-loop TARGET: xcb FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with xcb-window target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.xcb-window.rgb24.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.xcb-window.rgb24.diff.png
+TEST: arc-infinite-loop TARGET: xcb-window FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with xcb-window& target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.xcb-window&.rgb24.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.xcb-window&.rgb24.diff.png
+TEST: arc-infinite-loop TARGET: xcb-window& FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.xcb-render-0_0.argb32.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.xcb-render-0_0.argb32.diff.png
+TEST: arc-infinite-loop TARGET: xcb-render-0_0 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.xcb-render-0_0.rgb24.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.xcb-render-0_0.rgb24.diff.png
+TEST: arc-infinite-loop TARGET: xcb-render-0_0 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with xcb-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.xcb-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.xcb-fallback.rgb24.diff.png
+TEST: arc-infinite-loop TARGET: xcb-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with xlib-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.xlib-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.xlib-fallback.rgb24.diff.png
+TEST: arc-infinite-loop TARGET: xlib-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.image.argb32.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.image.argb32.diff.png
+TEST: arc-infinite-loop TARGET: image FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.image.rgb24.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.image.rgb24.diff.png
+TEST: arc-infinite-loop TARGET: image FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with image16 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.image16.rgb24.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.image16.rgb24.diff.png
+TEST: arc-infinite-loop TARGET: image16 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.recording.argb32.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.recording.argb32.diff.png
+TEST: arc-infinite-loop TARGET: recording FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-infinite-loop with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-infinite-loop.recording.rgb24.out.png
+REFERENCE: ../../test/reference/arc-infinite-loop.ref.png
+DIFFERENCE: output/arc-infinite-loop.recording.rgb24.diff.png
+TEST: arc-infinite-loop TARGET: recording FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS

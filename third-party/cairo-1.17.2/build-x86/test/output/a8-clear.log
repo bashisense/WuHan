@@ -1,0 +1,102 @@
+Testing a8-clear with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: a8-clear TARGET: ps2 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing a8-clear with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: a8-clear TARGET: ps2 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing a8-clear with ps3 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.ps3.argb32.out.png
+REFERENCE: ../../test/reference/a8-clear.ref.png
+DIFFERENCE: output/a8-clear.ps3.argb32.diff.png
+TEST: a8-clear TARGET: ps3 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with ps3 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.ps3.rgb24.out.png
+REFERENCE: ../../test/reference/a8-clear.ref.png
+DIFFERENCE: output/a8-clear.ps3.rgb24.diff.png
+TEST: a8-clear TARGET: ps3 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with script target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.script.argb32.out.png
+REFERENCE: ../../test/reference/a8-clear.ref.png
+DIFFERENCE: output/a8-clear.script.argb32.diff.png
+TEST: a8-clear TARGET: script FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with xcb target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.xcb.argb32.out.png
+REFERENCE: ../../test/reference/a8-clear.traps.argb32.ref.png
+DIFFERENCE: output/a8-clear.xcb.argb32.diff.png
+TEST: a8-clear TARGET: xcb FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with xcb target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.xcb.rgb24.out.png
+REFERENCE: ../../test/reference/a8-clear.traps.rgb24.ref.png
+DIFFERENCE: output/a8-clear.xcb.rgb24.diff.png
+TEST: a8-clear TARGET: xcb FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with xcb-window target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.xcb-window.rgb24.out.png
+REFERENCE: ../../test/reference/a8-clear.traps.rgb24.ref.png
+DIFFERENCE: output/a8-clear.xcb-window.rgb24.diff.png
+TEST: a8-clear TARGET: xcb-window FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with xcb-window& target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.xcb-window&.rgb24.out.png
+REFERENCE: ../../test/reference/a8-clear.traps.rgb24.ref.png
+DIFFERENCE: output/a8-clear.xcb-window&.rgb24.diff.png
+TEST: a8-clear TARGET: xcb-window& FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.xcb-render-0_0.argb32.out.png
+REFERENCE: ../../test/reference/a8-clear.ref.png
+DIFFERENCE: output/a8-clear.xcb-render-0_0.argb32.diff.png
+TEST: a8-clear TARGET: xcb-render-0_0 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.xcb-render-0_0.rgb24.out.png
+REFERENCE: ../../test/reference/a8-clear.ref.png
+DIFFERENCE: output/a8-clear.xcb-render-0_0.rgb24.diff.png
+TEST: a8-clear TARGET: xcb-render-0_0 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with xcb-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.xcb-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/a8-clear.ref.png
+DIFFERENCE: output/a8-clear.xcb-fallback.rgb24.diff.png
+TEST: a8-clear TARGET: xcb-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with xlib-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.xlib-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/a8-clear.ref.png
+DIFFERENCE: output/a8-clear.xlib-fallback.rgb24.diff.png
+TEST: a8-clear TARGET: xlib-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.image.argb32.out.png
+REFERENCE: ../../test/reference/a8-clear.ref.png
+DIFFERENCE: output/a8-clear.image.argb32.diff.png
+TEST: a8-clear TARGET: image FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.image.rgb24.out.png
+REFERENCE: ../../test/reference/a8-clear.ref.png
+DIFFERENCE: output/a8-clear.image.rgb24.diff.png
+TEST: a8-clear TARGET: image FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with image16 target (dev offset 0 scale: 1)
+130 pixels differ (with maximum difference of 4) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/a8-clear.image16.rgb24.out.png
+TEST: a8-clear TARGET: image16 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.recording.argb32.out.png
+REFERENCE: ../../test/reference/a8-clear.ref.png
+DIFFERENCE: output/a8-clear.recording.argb32.diff.png
+TEST: a8-clear TARGET: recording FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing a8-clear with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/a8-clear.recording.rgb24.out.png
+REFERENCE: ../../test/reference/a8-clear.ref.png
+DIFFERENCE: output/a8-clear.recording.rgb24.diff.png
+TEST: a8-clear TARGET: recording FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS

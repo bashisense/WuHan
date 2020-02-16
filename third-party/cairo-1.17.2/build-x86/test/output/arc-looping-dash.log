@@ -1,0 +1,106 @@
+Testing arc-looping-dash with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: arc-looping-dash TARGET: ps2 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-looping-dash with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: arc-looping-dash TARGET: ps2 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-looping-dash with ps3 target (dev offset 0 scale: 1)
+77 pixels differ (with maximum difference of 107) from reference image
+65 pixels differ (with maximum difference of 170) from reference image
+OUTPUT: output/arc-looping-dash.ps3.argb32.out.png
+REFERENCE: ../../test/reference/arc-looping-dash.ps.ref.png
+DIFFERENCE: output/arc-looping-dash.ps3.argb32.diff.png
+TEST: arc-looping-dash TARGET: ps3 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-looping-dash with ps3 target (dev offset 0 scale: 1)
+77 pixels differ (with maximum difference of 107) from reference image
+65 pixels differ (with maximum difference of 170) from reference image
+OUTPUT: output/arc-looping-dash.ps3.rgb24.out.png
+REFERENCE: ../../test/reference/arc-looping-dash.ps.ref.png
+DIFFERENCE: output/arc-looping-dash.ps3.rgb24.diff.png
+TEST: arc-looping-dash TARGET: ps3 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-looping-dash with script target (dev offset 0 scale: 1)
+55 pixels differ (with maximum difference of 255) from reference image
+55 pixels differ (with maximum difference of 255) from reference image
+OUTPUT: output/arc-looping-dash.script.argb32.out.png
+REFERENCE: ../../test/reference/arc-looping-dash.ref.png
+DIFFERENCE: output/arc-looping-dash.script.argb32.diff.png
+TEST: arc-looping-dash TARGET: script FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-looping-dash with xcb target (dev offset 0 scale: 1)
+53 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.xcb.argb32.out.png
+TEST: arc-looping-dash TARGET: xcb FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-looping-dash with xcb target (dev offset 0 scale: 1)
+53 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.xcb.rgb24.out.png
+TEST: arc-looping-dash TARGET: xcb FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-looping-dash with xcb-window target (dev offset 0 scale: 1)
+53 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.xcb-window.rgb24.out.png
+TEST: arc-looping-dash TARGET: xcb-window FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-looping-dash with xcb-window& target (dev offset 0 scale: 1)
+53 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.xcb-window&.rgb24.out.png
+TEST: arc-looping-dash TARGET: xcb-window& FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-looping-dash with xcb-render-0_0 target (dev offset 0 scale: 1)
+55 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.xcb-render-0_0.argb32.out.png
+TEST: arc-looping-dash TARGET: xcb-render-0_0 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-looping-dash with xcb-render-0_0 target (dev offset 0 scale: 1)
+55 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.xcb-render-0_0.rgb24.out.png
+TEST: arc-looping-dash TARGET: xcb-render-0_0 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-looping-dash with xcb-fallback target (dev offset 0 scale: 1)
+55 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.xcb-fallback.rgb24.out.png
+TEST: arc-looping-dash TARGET: xcb-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-looping-dash with xlib-fallback target (dev offset 0 scale: 1)
+55 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.xlib-fallback.rgb24.out.png
+TEST: arc-looping-dash TARGET: xlib-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-looping-dash with image target (dev offset 0 scale: 1)
+55 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.image.argb32.out.png
+TEST: arc-looping-dash TARGET: image FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-looping-dash with image target (dev offset 0 scale: 1)
+55 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.image.rgb24.out.png
+TEST: arc-looping-dash TARGET: image FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-looping-dash with image16 target (dev offset 0 scale: 1)
+70 pixels differ (with maximum difference of 10) from reference image
+28 pixels differ (with maximum difference of 9) from reference image
+OUTPUT: output/arc-looping-dash.image16.rgb24.out.png
+REFERENCE: ../../test/reference/arc-looping-dash.image16.ref.png
+DIFFERENCE: output/arc-looping-dash.image16.rgb24.diff.png
+TEST: arc-looping-dash TARGET: image16 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-looping-dash with recording target (dev offset 0 scale: 1)
+55 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.recording.argb32.out.png
+TEST: arc-looping-dash TARGET: recording FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-looping-dash with recording target (dev offset 0 scale: 1)
+55 pixels differ (with maximum difference of 9) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/arc-looping-dash.recording.rgb24.out.png
+TEST: arc-looping-dash TARGET: recording FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS

@@ -1,0 +1,105 @@
+Testing arc-direction with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: arc-direction TARGET: ps2 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-direction with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: arc-direction TARGET: ps2 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-direction with ps3 target (dev offset 0 scale: 1)
+1940 pixels differ (with maximum difference of 102) from reference image
+1236 pixels differ (with maximum difference of 51) from reference image
+OUTPUT: output/arc-direction.ps3.argb32.out.png
+REFERENCE: ../../test/reference/arc-direction.ps.ref.png
+DIFFERENCE: output/arc-direction.ps3.argb32.diff.png
+TEST: arc-direction TARGET: ps3 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-direction with ps3 target (dev offset 0 scale: 1)
+1940 pixels differ (with maximum difference of 102) from reference image
+1236 pixels differ (with maximum difference of 51) from reference image
+OUTPUT: output/arc-direction.ps3.rgb24.out.png
+REFERENCE: ../../test/reference/arc-direction.ps.ref.png
+DIFFERENCE: output/arc-direction.ps3.rgb24.diff.png
+TEST: arc-direction TARGET: ps3 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-direction with script target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.script.argb32.out.png
+REFERENCE: ../../test/reference/arc-direction.ref.png
+DIFFERENCE: output/arc-direction.script.argb32.diff.png
+TEST: arc-direction TARGET: script FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with xcb target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.xcb.argb32.out.png
+REFERENCE: ../../test/reference/arc-direction.traps.ref.png
+DIFFERENCE: output/arc-direction.xcb.argb32.diff.png
+TEST: arc-direction TARGET: xcb FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with xcb target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.xcb.rgb24.out.png
+REFERENCE: ../../test/reference/arc-direction.traps.ref.png
+DIFFERENCE: output/arc-direction.xcb.rgb24.diff.png
+TEST: arc-direction TARGET: xcb FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with xcb-window target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.xcb-window.rgb24.out.png
+REFERENCE: ../../test/reference/arc-direction.traps.ref.png
+DIFFERENCE: output/arc-direction.xcb-window.rgb24.diff.png
+TEST: arc-direction TARGET: xcb-window FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with xcb-window& target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.xcb-window&.rgb24.out.png
+REFERENCE: ../../test/reference/arc-direction.traps.ref.png
+DIFFERENCE: output/arc-direction.xcb-window&.rgb24.diff.png
+TEST: arc-direction TARGET: xcb-window& FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.xcb-render-0_0.argb32.out.png
+REFERENCE: ../../test/reference/arc-direction.ref.png
+DIFFERENCE: output/arc-direction.xcb-render-0_0.argb32.diff.png
+TEST: arc-direction TARGET: xcb-render-0_0 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with xcb-render-0_0 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.xcb-render-0_0.rgb24.out.png
+REFERENCE: ../../test/reference/arc-direction.ref.png
+DIFFERENCE: output/arc-direction.xcb-render-0_0.rgb24.diff.png
+TEST: arc-direction TARGET: xcb-render-0_0 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with xcb-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.xcb-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/arc-direction.ref.png
+DIFFERENCE: output/arc-direction.xcb-fallback.rgb24.diff.png
+TEST: arc-direction TARGET: xcb-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with xlib-fallback target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.xlib-fallback.rgb24.out.png
+REFERENCE: ../../test/reference/arc-direction.ref.png
+DIFFERENCE: output/arc-direction.xlib-fallback.rgb24.diff.png
+TEST: arc-direction TARGET: xlib-fallback FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.image.argb32.out.png
+REFERENCE: ../../test/reference/arc-direction.ref.png
+DIFFERENCE: output/arc-direction.image.argb32.diff.png
+TEST: arc-direction TARGET: image FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with image target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.image.rgb24.out.png
+REFERENCE: ../../test/reference/arc-direction.ref.png
+DIFFERENCE: output/arc-direction.image.rgb24.diff.png
+TEST: arc-direction TARGET: image FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with image16 target (dev offset 0 scale: 1)
+1762 pixels differ (with maximum difference of 7) from reference image
+1762 pixels differ (with maximum difference of 7) from reference image
+OUTPUT: output/arc-direction.image16.rgb24.out.png
+REFERENCE: ../../test/reference/arc-direction.ref.png
+DIFFERENCE: output/arc-direction.image16.rgb24.diff.png
+TEST: arc-direction TARGET: image16 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing arc-direction with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.recording.argb32.out.png
+REFERENCE: ../../test/reference/arc-direction.ref.png
+DIFFERENCE: output/arc-direction.recording.argb32.diff.png
+TEST: arc-direction TARGET: recording FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing arc-direction with recording target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/arc-direction.recording.rgb24.out.png
+REFERENCE: ../../test/reference/arc-direction.ref.png
+DIFFERENCE: output/arc-direction.recording.rgb24.diff.png
+TEST: arc-direction TARGET: recording FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS

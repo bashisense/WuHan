@@ -1,0 +1,58 @@
+Testing bug-source-cu with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: bug-source-cu TARGET: ps2 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-source-cu with ps2 target (dev offset 0 scale: 1)
+Error: Failed to extract image: error while writing to output stream
+TEST: bug-source-cu TARGET: ps2 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: FAIL
+Testing bug-source-cu with ps3 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-source-cu.ps3.argb32.out.png
+REFERENCE: ../../test/reference/bug-source-cu.ps.argb32.ref.png
+DIFFERENCE: output/bug-source-cu.ps3.argb32.diff.png
+TEST: bug-source-cu TARGET: ps3 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-source-cu with ps3 target (dev offset 0 scale: 1)
+PNG file exactly matches reference image.
+OUTPUT: output/bug-source-cu.ps3.rgb24.out.png
+REFERENCE: ../../test/reference/bug-source-cu.ps.rgb24.ref.png
+DIFFERENCE: output/bug-source-cu.ps3.rgb24.diff.png
+TEST: bug-source-cu TARGET: ps3 FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-source-cu with script target (dev offset 0 scale: 1)
+980 pixels differ (with maximum difference of 1) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/bug-source-cu.script.argb32.out.png
+TEST: bug-source-cu TARGET: script FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-source-cu with xcb target (dev offset 0 scale: 1)
+1960 pixels differ (with maximum difference of 9) from reference image
+980 pixels differ (with maximum difference of 1) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/bug-source-cu.xcb.argb32.out.png
+TEST: bug-source-cu TARGET: xcb FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-source-cu with xcb target (dev offset 0 scale: 1)
+1960 pixels differ (with maximum difference of 25) from reference image
+980 pixels differ (with maximum difference of 1) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/bug-source-cu.xcb.rgb24.out.png
+TEST: bug-source-cu TARGET: xcb FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-source-cu with xcb-window target (dev offset 0 scale: 1)
+1960 pixels differ (with maximum difference of 25) from reference image
+980 pixels differ (with maximum difference of 1) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/bug-source-cu.xcb-window.rgb24.out.png
+TEST: bug-source-cu TARGET: xcb-window FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-source-cu with xcb-window& target (dev offset 0 scale: 1)
+1960 pixels differ (with maximum difference of 25) from reference image
+980 pixels differ (with maximum difference of 1) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/bug-source-cu.xcb-window&.rgb24.out.png
+TEST: bug-source-cu TARGET: xcb-window& FORMAT: rgb24 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
+Testing bug-source-cu with xcb-render-0_0 target (dev offset 0 scale: 1)
+980 pixels differ (with maximum difference of 1) from reference image
+But perceptual diff finds no visually discernible difference.
+Accepting result.
+OUTPUT: output/bug-source-cu.xcb-render-0_0.argb32.out.png
+TEST: bug-source-cu TARGET: xcb-render-0_0 FORMAT: argb32 OFFSET: 0 SCALE: 1 SIMILAR: 0 RESULT: PASS
