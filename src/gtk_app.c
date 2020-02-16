@@ -2,6 +2,9 @@
 #include <gtk/gtk.h>
 #include <time.h>
 
+#define GTK_WINDOWS_RATIO       0.7
+#define GTK_WINDOWS_WIDTH       (480 * GTK_WINDOWS_RATIO)
+#define GTK_WINDOWS_HEIGHT      (800 * GTK_WINDOWS_RATIO)
 
 static char buffer[256];
 
@@ -65,7 +68,7 @@ int main (int argc, char *argv[])
 
   gtk_window_set_title(GTK_WINDOW(window), "WuHan");
   gtk_window_set_position(GTK_WINDOW(window), GTK_WIN_POS_CENTER);
-  gtk_window_set_default_size(GTK_WINDOW(window), 240, 400);
+  gtk_window_set_default_size(GTK_WINDOW(window), GTK_WINDOWS_WIDTH, GTK_WINDOWS_HEIGHT);
 
   g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
 
